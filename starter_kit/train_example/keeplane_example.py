@@ -3,7 +3,7 @@ from pathlib import Path
 
 import gym
 
-from smarts.core.agent import AgentPolicy
+from smarts.core.agent import Z
 from smarts.core.agent import AgentSpec
 from smarts.core.agent_interface import AgentInterface, AgentType
 from smarts.core.controllers import ActionSpaceType, DiscreteAction

@@ -11,7 +11,7 @@ your starter-kit. Follow the example command below and create your instance.
 # get docker
 docker build -t smarts/dai .
 # create docker container
-docker run -itd -p 6006:6006 -p 8081:8081 -p 8082:8082 -v /dai:/dai --name smarts smarts/dai bash
+docker run -itd -p 6006:6006 -p 8081:8081 -p 8082:8082 -v C:/Users/developer/DAI2020:/dai --name smarts smarts/dai bash
 # get into the docker
 docker exec -it smarts bash
 
